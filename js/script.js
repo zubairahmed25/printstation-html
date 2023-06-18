@@ -1017,7 +1017,7 @@
    ========================================================================== */
 	
 	$(window).on('load', function() {
-		handlePreloader();
+		// handlePreloader();
 		enableMasonry();
 		enableMasonryTwo();
 		sortableMasonry();

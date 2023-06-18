@@ -667,16 +667,16 @@
 		z-index:99;
 	}
 	
-	.main-slider .image{
+	/* .main-slider .image{
 		display:none;
-	}
+	} */
 	
 	.main-slider .counter-boxed{
 		position:relative;
 	}
 	
 	.main-slider .slide{
-		padding:120px 0px;
+		padding:50px 0px;
 	}
 	
 	.services-section .inner-container .service-block{

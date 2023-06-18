@@ -494,7 +494,7 @@
 	color:var(--color-six);
 	font-size:var(--font-13);
 	text-transform:uppercase;
-	padding-left:var(--padding-left-55);
+	/* padding-left:var(--padding-left-55); */
 }
 
 .main-header .cart-box .icon-box{

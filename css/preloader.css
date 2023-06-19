@@ -14,7 +14,7 @@
 	/* background-size:500px; */
 	/* background-image:url(../images/no-logo.png); */
 }
-.preloader img{
+.preloader img,.preloader svg{
     max-width: 500px;
     width: 100%;
 }

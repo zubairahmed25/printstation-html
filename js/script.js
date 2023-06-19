@@ -1015,14 +1015,14 @@
 /* ==========================================================================
    When document is loading, do
    ========================================================================== */
-	
+	setTimeout(function(){
+		handlePreloader();
+	},2500)
 	$(window).on('load', function() {
 		enableMasonry();
 		enableMasonryTwo();
 		sortableMasonry();
 	});	
 
-	$(document).ready(function(){
-		handlePreloader();
-	})
+	
 })(window.jQuery);

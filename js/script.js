@@ -1017,7 +1017,7 @@
    ========================================================================== */
 	setTimeout(function(){
 		handlePreloader();
-	},2000)
+	},700)
 	$(window).on('load', function() {
 		enableMasonry();
 		enableMasonryTwo();

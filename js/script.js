@@ -1017,10 +1017,12 @@
    ========================================================================== */
 	
 	$(window).on('load', function() {
-		handlePreloader();
 		enableMasonry();
 		enableMasonryTwo();
 		sortableMasonry();
 	});	
 
+	$(document).ready(function(){
+		handlePreloader();
+	})
 })(window.jQuery);

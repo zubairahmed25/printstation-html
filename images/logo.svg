@@ -8,18 +8,18 @@
 			fill:#FFE600;
 			mix-blend-mode: darken;
 			opacity:0;
-			animation: myFadeAnimation 1s linear 0s 1 forwards ;
+			animation: myFadeAnimation .5s linear 0s 1 forwards ;
 		
 		}
 		.st3{
 			fill:#4CB9E3;
 			mix-blend-mode: darken;
-			animation: myFadeAnimation 1s linear 1s 1 forwards ;
+			animation: myFadeAnimation 0.75s linear 0.75s 1 forwards ;
 			opacity:0;
 		}
 		.st4{
 			fill:#F30A7D;
-			animation: myFadeAnimation 1s linear 2s 1 forwards ;
+			animation: myFadeAnimation 1.5s linear 1.25s 1 forwards ;
 			opacity:0;
 			mix-blend-mode: darken;
 		}

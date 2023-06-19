@@ -52,7 +52,7 @@
 
 .main-header .logo-box .logo{
 	position:relative;
-	margin-left:var(--margin-left-30);
+	/* margin-left:var(--margin-left-30); */
 }
 
 .main-header .logo-box.style-two .logo{

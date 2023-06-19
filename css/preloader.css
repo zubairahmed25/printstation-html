@@ -14,7 +14,10 @@
 	/* background-size:500px; */
 	/* background-image:url(../images/no-logo.png); */
 }
-
+.preloader img{
+    max-width: 500px;
+    width: 100%;
+}
 .preloader-close {
     position: fixed;
     z-index: 999999;

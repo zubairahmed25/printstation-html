@@ -676,7 +676,7 @@
 	height: 100%;
 	max-height: 100%;
 	overflow-y: auto;
-	background: var(--color-three);
+	background: var(--color-four);
 	padding: 0px 0px;
 	z-index: 5;
 	border-radius: 0px;
@@ -768,7 +768,7 @@
 	cursor:pointer;
 	opacity:0.60;
 	z-index:5;
-	color:var(--white-color);
+	color:var(--color-three);
 }
 
 .mobile-menu .navigation li.dropdown .dropdown-btn:after{
@@ -778,7 +778,7 @@
 	top:10px;
 	width:1px;
 	height:24px;
-	background-color:var(--white-color);
+	background-color:var(--color-three);
 }
 
 .mobile-menu .navigation li > ul,
@@ -829,14 +829,14 @@
 	line-height: 24px;
 	padding: 10px 20px;
 	font-size: var(--font-14);
-	color: var(--white-color);
+	color: var(--color-three);
 	text-transform: uppercase;
 	
 }
 
 .main-header .mobile-menu .navigation li:hover > a,
 .main-header .mobile-menu .navigation li.current > a{
-	color: var(--white-color);
+	color: var(--color-three);
 }
 
 /* Search Box Widget */
@@ -858,7 +858,7 @@
 	height:54px;
 	font-weight:500;
 	background:none;
-	color:var(--white-color);
+	color:var(--color-three);
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -874,7 +874,7 @@
 	width:60px;
 	display:block;
 	font-size:16px;
-	color:var(--white-color);
+	color:var(--color-three);
 	cursor:pointer;
 	line-height:100%;
 	font-weight:normal;
@@ -884,11 +884,11 @@
 
 .mobile-menu .search-box .form-group input[type="text"]:focus,
 .mobile-menu .search-box .form-group input[type="search"]:focus{
-	border-color:var(--main-color);
+	border-color:var(--color-three);
 }
 
 .mobile-menu .search-box .form-group input::-webkit-input-placeholder{
-	color:var(--white-color);
+	color:var(--color-three);
 }
 
 .main-header .sticky-header .navbar-header{

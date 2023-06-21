@@ -595,7 +595,9 @@
 }
 
 @media only screen and (max-width: 767px){
-	
+	.project-section .owl-nav .owl-prev{
+		left:100px;
+	}
 	.header-upper .logo-outer {
 		position:relative;
 		left:0px;

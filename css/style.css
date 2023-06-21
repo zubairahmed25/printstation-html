@@ -826,7 +826,7 @@
 
 .project-section .owl-nav .owl-prev{
 	position:absolute;
-	left:0px;
+	left:10px;
 	z-index:1;
 	width:46px;
 	height:45px;
@@ -848,7 +848,7 @@
 
 .project-section .owl-nav .owl-next{
 	position:absolute;
-	right:0px;
+	right:100px;
 	z-index:99;
 	width:46px;
 	height:45px;

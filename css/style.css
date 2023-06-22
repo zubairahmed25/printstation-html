@@ -1472,6 +1472,28 @@
 	background:url(../images/icons/vector-10.png) center bottom no-repeat;
 }
 
+.sec-title.centered h2:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	right:0px;
+	bottom:5px;
+	height:5px;
+	z-index:-1;
+	background:url(../images/icons/vector-10.png) center bottom no-repeat;
+}
+
+.title-box h2:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	right:0px;
+	bottom:10px;
+	height:5px;
+	z-index:-1;
+	background:url(../images/icons/vector-10.png) center bottom no-repeat;
+}
+
 .service-block-two{
 	position:relative;
 	margin-bottom:var(--margin-bottom-30);
@@ -11412,3 +11434,15 @@
 	color:var(--white-color);
 	background-color:var(--main-color);
 }
+
+@media only screen and (max-width: 500px)  {
+.contact-header {
+	padding-bottom:0;
+}
+}
+
+@media only screen and (min-width: 501px)  {
+	.contact-header {
+		padding-bottom:3%;
+	}
+	}
